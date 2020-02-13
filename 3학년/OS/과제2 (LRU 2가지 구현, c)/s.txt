@@ -1,0 +1,6 @@
+Insertion
+들어갈수있는 entry개수 = (blocksize-4)/8
+1. key와 value 값이들어온다.
+2-1) 처음 root가 없는 경우
+	-root에 할당해준다. (entry 개수까지) 이때까지는 root가 leaf node이다.
+	-root가 꽉차면 split이 일어난다. ( (entry 개수 /2) 번째 값만 root에 남고 나머지는 root값 기준으로 2개의 block으로 나누어진다.

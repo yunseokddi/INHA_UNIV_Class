@@ -1,0 +1,14 @@
+-Data
+각 instance는 4개의 숫자 속성과 label로 구성된다.
+1. 꽃 받침 길이 (cm)
+2. 꽃 받침 너비 (cm)
+3. 꽃잎 길이 (cm)
+4. 꽃잎 너비 (cm)
+5. class (Iris Setosa, Iris Versicolour, Iris Virginica)
+
+-Problem
+1. Classifier 평가를 위한 교차 검증 (K-fold cross-validation) 요약
+2. precision-recall 만들고 평가
+3. 4개의 다른 feature에 대해 3개의 histogram를 4개로 분리하여라
+4. 2d로 표시
+5. 

@@ -1,0 +1,17 @@
+함수 정의
+employee 
+-성, 이름 입력 받고 firstname, lastname 배열에 저장. and cout 함, count ++
+
+count
+-count 값 return
+
+~employee
+-동적 함수 종료, cout <<"~employee~~" firstname, lastname 없앰
+
+getfirstname 
+-성 return
+
+getlastname
+-이름 return 
+
+setnext

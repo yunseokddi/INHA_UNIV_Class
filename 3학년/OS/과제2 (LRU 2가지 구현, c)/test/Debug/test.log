@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\oys53\desktop\inha\학교\3학년\1학기\오퍼레이팅 시스템\과제2\test\main.cpp(350): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  test.vcxproj -> C:\Users\oys53\Desktop\INHA\학교\3학년\1학기\오퍼레이팅 시스템\과제2\test\Debug\test.exe
+  test.vcxproj -> C:\Users\oys53\Desktop\INHA\학교\3학년\1학기\오퍼레이팅 시스템\과제2\test\Debug\test.pdb (Full PDB)

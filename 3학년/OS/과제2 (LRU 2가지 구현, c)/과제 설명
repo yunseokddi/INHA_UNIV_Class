@@ -1,0 +1,45 @@
+sample 코드 x
+과제 노트만 보고 하기
+
+주소 변환과 page replacement만 하기
+
+LRU APP는 additional bit 사용해서 하기
+LRU는 count가 쉬움
+
+address bit를 16비트로 할꺼임
+- 8비트는 page number, 나머지 8비트는 offset
+and or같은 비트연산자 잘 쓰기
+
+tlb는 2^5개
+frame size는 page size랑 같음 2^8개
+총 256개 frame 존재
+
+page에 중복도 있다.
+
+physical.txt : 변환된 address 출력
+-> frame*256+offset
+frame_table.txt: 각각의 page number는 unique하다. 라는 가정을 허용
+flag는 할당이 되어있는지 안되어있는지
+
+Address translation
+ex) 4 logical address: 1 256 32768 32769
+1: 00000000 00000001 -> page: 0, offset: 1
+256: 00000001 00000000 -> page: 1, offset: 0
+32768: 10000000 00000000 -> page: 128, offset: 0
+32769: 10000000 00000001 -> page: 128, offset: 1
+
+
+같은 page라도 offset에 따라서 physical이 달라짐
+frame이 꽉차면 replace가 일어남-> tlb를 본다-> tlb에 없으면
+
+LRU, LRU-approximation (additional bit 사용, mask를 위한 flag를 두어라)
+-TLB hit ratio를 비교 (이것은 cpu에서 가능) -> LRU가 좋을것이다.
+
+총 output
+output4개, 보고서1개, 소스코드 1개
+보고서: 목적, 설계방식, 구현 상세, 결론
+
+size는 절대로 바꾸지말기
+
+frame table은 lru, lru app 둘다 다르다.
+

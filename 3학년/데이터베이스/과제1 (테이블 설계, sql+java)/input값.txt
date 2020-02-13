@@ -1,0 +1,13 @@
+2.
+Winona Ryder won the ¡°Best supporting actor¡± award in 1994
+Andrew Garfield won the ¡°Best supporting actor¡± award in 2011
+Jesse Eisenberg won the ¡°Best main actor¡± award in 2011
+Johnny Depp won the ¡°Best villain actor¡± award in 2011
+Edward Scissorhands won the ¡°Best fantasy movie¡± award in 1991
+Alice In Wonderland won the ¡°Best fantasy movie¡± award in 2011
+
+3.
+Bob rates 5 to ¡°The Dark Knight¡±.
+Bell rates 5 to the movies whose director is ¡°Tim Burton¡±.
+Jill rates 4 to the movies whose main actor is female.
+

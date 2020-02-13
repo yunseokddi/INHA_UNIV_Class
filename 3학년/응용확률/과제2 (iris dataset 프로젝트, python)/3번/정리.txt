@@ -1,0 +1,35 @@
+-label
+a. setosa b. versicolor c. virginica
+
+-variable
+sepal length | sepal width | pepal length | pepal width
+
+(0.0 <= x: sepal length <= 10.0) 
+p(x = setosa) = setosa_sepal_length_kde
+p(x = versicolor) = Versicolour_sepal_length_kde
+p(x = virginica) = Virginica_sepal_length_kde
+
+(0.0 <= y: sepal width <= 10.0)
+p(y = setosa) = setosa_sepal_width_kde
+p(y = versicolor) = Versicolour_sepal_width_kde
+p(y = virginica) = Virginica_sepal_width_kde
+
+(0.0 <= z: pepal length <= 10.0)
+p(z = setosa) = setosa_pepal_length_kde
+p(z = versicolor) = Versicolour_pepal_length_kde
+p(z = virginica) = Virginica_pepal_length_kde
+
+(0.0 <= w: pepal width <= 10.0)
+p(w = setosa) = setosa_pepal_width_kde
+p(w = versicolor) = Versicolour_pepal_width_kde
+p(w = virginica) = Virginica_pepal_width_kde
+
+
+	   p(x|a)*p(a)
+p(a|x) = ----------------------
+         p(x|a)*p(a) + p(x|ac)*p(ac)
+
+p(a|x): x가 a. setosa 일 확률
+p(a): a. setosa일 확률
+p(x|a): a. setosa가 x 일 확률
+p(x|ac): a. setosa가 x가 아닐 확률
